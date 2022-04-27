@@ -7,7 +7,7 @@ Once we have three highest numbers in the list, we sum them up aned divide by 3
 Output a message to the user
 """
 
-grades = []
+grades = []     # empty list
 
 grade = input("Enter the 1st grade:")    # ask to user to enter grade
 grades.append(float(grade))             # append the given grade to the list as a float
